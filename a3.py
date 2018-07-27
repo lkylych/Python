@@ -1,28 +1,7 @@
 import random
 import math
 
-#####################################################
-#####################################################
-# Please enter the number of hours you spent on this
-# assignment here
-num_hours_i_spent_on_this_assignment = 5
-#####################################################
-#####################################################
 
-#####################################################
-#####################################################
-# Give one short piece of feedback about the course so far. What
-# have you found most interesting? Is there a topic that you had trouble
-# understanding? Are there any changes that could improve the value of the
-# course to you? (We will anonymize these before reading them.)
-# 
-#####################################################
-#####################################################
-
-
-
-# Outputs a random integer, according to a multinomial
-# distribution specified by probs.
 def rand_multinomial(probs):
     # Make sure probs sum to 1
     assert(abs(sum(probs) - 1.0) < 1e-5)
