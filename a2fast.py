@@ -2,17 +2,6 @@ import random
 import time
 import copy
 
-#####################################################
-#####################################################
-# Give one short piece of feedback about the course so far. What
-# have you found most interesting? Is there a topic that you had trouble
-# understanding? Are there any changes that could improve the value of the
-# course to you? (We will anonymize these before reading them.)
-# <Your feedback goes here>
-#####################################################
-#####################################################
-
-
 # A clause consists of a set of symbols, each of which is negated
 # or not. A clause where
 # clause.symbols = {"a": 1, "b": -1, "c": 1}
